@@ -19,7 +19,7 @@
 		if (result == 1) {
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
-			script.println("location.href='main.jsp'");
+			script.println("location.href='main.jsp'"); // 로그인완료, main.jsp 위치로 이동
 			script.println("</script>");
 		}
 		else if (result == 0) {

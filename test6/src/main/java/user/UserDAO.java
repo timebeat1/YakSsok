@@ -14,7 +14,7 @@ import java.sql.ResultSet;
 public class UserDAO {
 
  private Connection conn; //데이터베이스 접근 객체
- private PreparedStatement pstmt;
+ private PreparedStatement pstmt; //데이터베이스 처리문을 효과적으로 처리하기 위한 객체입니다. 특정상수값 반복처리
  private ResultSet rs; //정보를 담기위한 객체
 
  public UserDAO() {

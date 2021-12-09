@@ -9,7 +9,7 @@ request.setCharacterEncoding("utf-8");
 String userID = request.getParameter("userID"); 
 String userPassword = request.getParameter ("userPassword"); 
 String userName = request.getParameter("userName"); 
-String spage = request.getParameter("page");
+String spage = request.getParameter("page"); // <%, 즉 자바 코드 내에서 jsp 문구를 사용하기 위한 임시방편입니다.
 
 String dbURL="jdbc:mysql://localhost:3308/boarddb"; 
 String dbID = "root"; 
