@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"user","c":"UserDAO","l":"login(String, String)","u":"login(java.lang.String,java.lang.String)"},{"p":"user","c":"UserDAO","l":"UserDAO()","u":"%3Cinit%3E()"}];updateSearchResults();

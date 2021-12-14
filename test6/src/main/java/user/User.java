@@ -1,33 +1,56 @@
 package user;
 
 
-/*
- * ÇÑ¸íÀÇ µ¥ÀÌÅÍ¸¦ ´Ù·ê ¼ö ÀÖ´Â Å¬·¡½ºÀÔ´Ï´Ù.
- * µ¥ÀÌÅÍº£ÀÌ½º¿¡ ¼±¾ğÇÑ °¢°¢ÀÇ º¯¼ö ÀÌ¸§°ú ¸Â°Ô µ¥ÀÌÅÍ¸¦ ¼±¾ğÇØÁİ´Ï´Ù.
+/**
+ * í•œëª…ì˜ ë°ì´í„°ë¥¼ ë‹¤ë£° ìˆ˜ ìˆëŠ” í´ë˜ìŠ¤ì…ë‹ˆë‹¤.
+ * ë°ì´í„°ë² ì´ìŠ¤ì— ì„ ì–¸í•œ ê°ê°ì˜ ë³€ìˆ˜ ì´ë¦„ê³¼ ë§ê²Œ ë°ì´í„°ë¥¼ ì„ ì–¸í•´ì¤ë‹ˆë‹¤. 
+ * generate getter / setter methodë¥¼ ìƒì„±í•´ì¤ë‹ˆë‹¤
  */
 public class User {
+	
+	
 	private String userID;
 	private String userPassword;
 	private String userName;
 
 	
 	
-	//generate getter / setter method¸¦ »ı¼ºÇØÁİ´Ï´Ù
+
+/**
+ * getUserID
+ * @return userID
+ */
 	public String getUserID() {
 		return userID;
-	}
+	}/**
+	 * setUserID
+	 * @return userID
+	 */
 	public void setUserID(String userID) {
 		this.userID = userID;
-	}
+	}/**
+	 *  getUserPassword
+	 * @return userPassword
+	 */
 	public String getUserPassword() {
 		return userPassword;
-	}
+	}/**
+	 * setUserPassword
+	 * @return userPassword
+	 */
 	public void setUserPassword(String userPassword) {
 		this.userPassword = userPassword;
-	}
+	}/**
+	 * getUserName
+	 * @return userName
+	 */
 	public String getUserName() {
 		return userName;
-	}
+	}/**
+	 * setUserName
+	 * @return
+	 * userName
+	 */
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}	

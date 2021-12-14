@@ -9,7 +9,7 @@
 <body>
 	<form id="Action" action="<%=request.getContextPath()%>/action.jsp" method="post" enctype="multipart/form-data">
 		<div class="form-group">
-	        사진 : 
+	        
 	        <input type="file" name="image">
 	    </div>
 	    
